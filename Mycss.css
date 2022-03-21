@@ -1,0 +1,410 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background:aliceblue;
+}
+
+.Nav_Section
+{
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.Nav_Section #logo
+{
+    width:60px;
+    text-align: center;
+}
+.Nav_Section  #logo span
+{
+    font-size: 22px;
+    text-align: center;
+}
+
+.Nav_Section #Nav_Options
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: rgb(194, 223, 223);
+    right: 0;
+    top: 0;
+    border-radius: 20px ;
+    padding: 10px;
+}
+
+.Nav_Section #Nav_Options span
+{
+    padding :10px 3vw;
+    cursor:pointer;
+}
+
+.Nav_Section #Nav_Options span h3
+{
+        text-transform: uppercase;
+}
+.Nav_Section #Nav_Options .button 
+{
+    border-radius: 30px;
+    padding:10px 12px;
+    height:20px;
+}
+.Nav_Section #Nav_Options .button a 
+{
+    text-decoration:none;
+}
+
+.row
+{
+    display: flex;
+    flex-wrap: wrap;
+    display:flex;
+    flex-wrap:wrap;
+
+}
+.col
+{
+    margin:3.5vw;
+    padding:10px;
+    width:40vw;
+    height:40vw;
+    word-spacing:13px;
+    font-size:28px;
+}
+.col h1{
+    text-transform:uppercase;
+    font-size:75px;
+    margin:20px 0px;
+}
+#popUp
+{
+    position:fixed;
+    top:0px;
+    background:rgba(0,0,0,0.4);
+    width:100%;
+    height:100vh;
+    
+    display:none;
+    align-items: center;
+    justify-content:center;
+}
+
+#popUp #popUp_Insider
+{
+    background:aliceblue;
+    position:relative;
+    border-radius:25px ;
+    padding:50px;
+}
+#popUp #popUp_Insider .cancle
+{
+    position:absolute;
+    top:20px;
+    right:20px;
+    cursor:pointer;
+    font-weight:1000; 
+}
+
+#popUp #popUp_Insider .center_Div
+{
+    display:flex;
+    padding:3%; 
+}
+#popUp #popUp_Insider .insider
+{
+
+    padding:20px;
+}
+#popUp #popUp_Insider .first_Div
+{
+    border-right:3px solid black;
+    display:flex;
+    width:20vw;
+    align-items:center;
+    font-size:30px;
+}
+#popUp #popUp_Insider .first_Div h1
+{
+    font-size:50px;
+}
+
+#popUp #popUp_Insider .second_Div 
+{
+    align-items:center;
+    text-align:center;
+}
+#popUp #popUp_Insider .second_Div input[type = text],input[type=password]
+{
+    padding:0px 12px;
+    font-weight:700;
+    height:40px;
+    width:250px;
+    border:1px solid gray;
+    border-radius:10px;
+    margin-bottom:5%;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background:aliceblue;
+}
+
+.Nav_Section
+{
+    margin:50px;
+    display:flex;
+    justify-content:space-between;
+}
+.Nav_Section #logo
+{
+    width:60px;
+    text-align:center;
+}
+.Nav_Section  #logo span
+{
+    font-size:22px;
+    text-align:center;
+}
+
+.Nav_Section #Nav_Options
+{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+}
+
+.Nav_Section #Nav_Options span
+{
+    padding :10px 3vw;
+    cursor:pointer;
+}
+
+.Nav_Section #Nav_Options span h3
+{
+    text-transform: uppercase;
+    border-radius: 30px;
+    padding: 10px 12px;
+    height: 20px;
+}
+#Nav_Options > span h3:hover
+{   
+    padding :10px 3vw;
+    background-color: rgb(133, 133, 231);
+    border-radius: 20px;
+    height: 50px;
+}
+/* .Nav_Section #Nav_Options .button 
+{
+    border-radius: 30px;
+    padding: 10px 12px;
+    height:20px;
+} */
+
+.Nav_Section #Nav_Options .button a 
+{
+    text-decoration:none;
+
+}
+#Body_IntroSection{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between
+}
+#Body_IntroSection div h1
+{
+    text-transform:uppercase;
+    font-size:75px;
+    margin:20px 0px;
+}
+
+#Body_IntroSection div
+{
+    margin:3.5vw;
+    padding:10px;
+    width:40vw;
+    height:40vw;
+    word-spacing:13px;
+    font-size:28px
+}
+#popUp
+{
+    position:fixed;
+    top:0px;
+    background:rgba(0,0,0,0.4);
+    width:100%;
+    height:100vh;
+    display:none;
+    transition:all 0.3s;
+    align-items: center;
+    justify-content:center;
+}
+
+#popUp #popUp_Insider
+{
+    background:aliceblue;
+    position:relative;
+    border-radius:25px ;
+    padding:50px;
+}
+#popUp #popUp_Insider .cancle
+{
+    position:absolute;
+    top:20px;
+    right:20px;
+    cursor:pointer;
+    font-weight:1000; 
+}
+
+#popUp #popUp_Insider .center_Div
+{
+    display:flex;
+    padding:3%; 
+}
+#popUp #popUp_Insider .insider
+{
+    padding:20px;
+}
+#popUp #popUp_Insider .first_Div
+{
+        border-right:3px solid black;
+    
+}
+#popUp #popUp_Insider .second_Div 
+{
+    align-items:center;
+    text-align:center;
+}
+#popUp #popUp_Insider .second_Div input[type = text],#popUp #popUp_Insider .second_Div input [type=password]
+{
+    padding:0px 12px;
+    font-weight:700;
+    height:40px;
+    width:250px;
+    border:1px solid gray;
+    border-radius:10px;
+    margin-bottom:5%;
+
+}
+#popUp #popUp_Insider .second_Div input[type = text]:focus,#popUp #popUp_Insider .second_Div input[type = password]:focus
+{
+    outline:none;
+}
+#popUp #popUp_Insider .second_Div .SignUpButton
+{
+    padding:12px;
+    font-weight:700;
+    width:100%;
+    margin:12px 0px;
+    border-radius:12px;
+    color:white;
+    border:none;
+    background:rgb(71,96,176);
+}
+#popUp #popUp_Insider .second_Div .SignUpButton:hover 
+{
+    cursor :pointer;
+}
+
+#popUp #popUp_Insider .second_Div .neomorphic
+{
+    display:flex;
+    justify-content:center;
+    margin:10px 0px;
+    padding:5px;
+    width:100%;
+    box-shadow:3px 3px 10px gray;
+    border:none;
+    border-radius:30px;
+}
+
+#popUp #popUp_Insider .second_Div .neomorphic:hover
+{
+    cursor:pointer;
+    box-shadow:3px 3px 3px silver inset;
+}
+
+#popUp #popUp_Insider .second_Div .neomorphic img
+{
+    width:30px;
+    margin:0px 10px;
+}
+#popUp #popUp_Insider .second_Div .neomorphic span
+{
+    margin-top:3%;
+}
+#UserInfo .For_background
+{
+    position:absolute;
+    display:none;
+    transition:all 0.3s;
+    top:0;
+    right:0;
+    width:50vw;
+    height:50vw;
+    background:rgba(0,0,0,0.4);
+    border-radius:50vw 0px 0px 50vw;
+}
+#UserInfo .For_background .main_Box
+{
+    border-radius:30px;
+    background:white;
+    width:30%;
+    position:absolute;
+    right:15%;
+    top:20%;
+    padding:5%;
+}
+#UserInfo .For_background .main_Box .user_Status
+{
+    position:relative;
+    display:flex;
+    text-align:Right;
+    justify-content:right;
+    margin-left:20%;
+    margin:5%, 0px;
+}
+#UserInfo .For_background .main_Box .user_Status .UserImage
+{
+    position:relative;
+    width:50px;
+    height:50px;
+    overflow:hidden;
+    border-radius:50%;
+}
+
+#UserInfo .For_background .main_Box .UserOptions
+{
+    background:navy;
+    cursor:pointer;
+    color:white;
+    text-align:center;
+    padding:10px;
+    margin:10 0px;
+    border-radius:30px;
+}
+#leftAlign
+{
+    display: flex;
+    justify-content: space-around;
+}
+.useAsCanvas
+{
+    width:800px;
+    height:500px;
+    overflow:hidden;
+    position:relative;
+    margin:30px;
+    background:lightgray;
+}
+.CanvasDiv
+{
+    border:2px solid black;
+}

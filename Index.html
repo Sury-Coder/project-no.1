@@ -1,0 +1,76 @@
+<html>
+    <head>
+        
+        <title>MYpage</title>
+        <link href="Mycss.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">    
+    </head>    
+    <body>
+        <section Class="Nav_Section"> 
+            <div id="logo">
+                <span><h2>Just App</h2></span>
+            </div>
+            <div id="Nav_Options">
+                <span><h3>Home</h3></span>
+                <span><h3>About</h3></span>
+                <span><h3>Contact</h3></span>
+                <span class="button" onclick="document.getElementById('popUp').style.display = 'flex'"><h3>Get started</h3></span>
+            </div>
+        </section>
+            <div class="row">
+                <div class="col">
+                <h1>app made simple</h1>
+                <p>    Using our no-code tool, leave your product development to us, and focus on other important stuff 
+                </p>
+            </div>
+            <div class="col">
+                <img src="Image/landingPage/Capture.PNG" width="100%" height="100%">
+            </div>
+            </div>
+        <section>
+            <div id="popUp">
+                <div id="popUp_Insider">
+                    <div class = "cancle" onclick="document.getElementById('popUp').style.display = 'none'">X</div>
+                    <div class = "center_Div" >
+                        <div class = "insider first_Div">
+                            <div id="Center">
+                                <h1 >Join As</h1>
+                                We value your creation,to keep it safe.
+                            </div>
+                        </div>
+                        <div class="insider second_Div">
+                            <form>
+                            <input class = "" type="text" value="" placeholder="Enter Email ID"><br>
+                            <input class = "" type="password" value="" placeholder="Create pass"><br>
+                            <button class = "SignUpButton" type="button">LOGIN / SIGNUP</button><br>
+                            <hr>
+                            <button class="neomorphic"><img src="Image/googlelogo.PNG"> <span>Sign In</span></button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="UserInfo">
+            <div class="For_background">
+                <div class="main_Box">
+                    <div class ="user_Status">
+                        <div class="username">
+                            <p>welcome</p>
+                            <h3>Abhijeet Daas</h3>
+                        </div>
+                        <div class="UserImage">
+                            <img src="Image/userImage.PNG" width="100%" height="100%">
+                        </div>
+                    </div>
+                    <div class="UserOptions">Account</div>
+                    <div class="UserOptions">My Apps</div>
+                    <div class="UserOptions">Get Help</div>
+                    <div class="UserOptions">Logout</div>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
